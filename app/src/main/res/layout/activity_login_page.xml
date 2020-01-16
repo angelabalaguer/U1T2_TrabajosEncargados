@@ -22,7 +22,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/etusuario"
+            android:id="@+id/etusuariof"
             android:hint="Ingrese su usuario"
             android:background="@drawable/input"
             android:layout_marginBottom="15dp"
@@ -37,7 +37,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/etpassword"
+            android:id="@+id/etpasswordf"
             android:hint="Ingrese su contraseña"
             android:background="@drawable/input"
             android:layout_marginBottom="15dp"
@@ -63,6 +63,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/btnejecutarf"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp"
