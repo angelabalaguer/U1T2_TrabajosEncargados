@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Musica(View view) {
-        startActivity(new Intent(this, Musica.class));
+
+        startActivity(new Intent(this, Permisos.class));
     }
 }
