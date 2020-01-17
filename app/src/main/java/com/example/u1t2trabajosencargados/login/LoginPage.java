@@ -1,4 +1,4 @@
-package com.example.u1t2trabajosencargados;
+package com.example.u1t2trabajosencargados.login;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.u1t2trabajosencargados.R;
 
 public class LoginPage extends AppCompatActivity {
     EditText usuario ;
@@ -139,6 +141,8 @@ public class LoginPage extends AppCompatActivity {
                     "Sin el permiso" + " de Almacenamiento no podemos guardar su informacion.", 2);
         }
     }
+
+
 
     @Override public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu1, menu);

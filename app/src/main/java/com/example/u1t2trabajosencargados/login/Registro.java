@@ -1,4 +1,4 @@
-package com.example.u1t2trabajosencargados;
+package com.example.u1t2trabajosencargados.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.u1t2trabajosencargados.R;
+import com.example.u1t2trabajosencargados.login.LoginPage;
 
 public class Registro extends AppCompatActivity {
 

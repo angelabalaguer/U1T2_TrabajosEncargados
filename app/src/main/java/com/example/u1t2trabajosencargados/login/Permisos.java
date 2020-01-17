@@ -1,4 +1,4 @@
-package com.example.u1t2trabajosencargados;
+package com.example.u1t2trabajosencargados.login;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.u1t2trabajosencargados.R;
 
 public class Permisos extends AppCompatActivity {
 

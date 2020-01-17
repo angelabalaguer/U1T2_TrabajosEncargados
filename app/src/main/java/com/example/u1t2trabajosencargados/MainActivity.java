@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+
+import com.example.u1t2trabajosencargados.login.LoginPage;
+import com.example.u1t2trabajosencargados.login.Permisos;
+import com.example.u1t2trabajosencargados.musica.Musica;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void Musica(View view) {
 
-        startActivity(new Intent(this, Permisos.class));
+        startActivity(new Intent(this, Musica.class));
     }
 }
